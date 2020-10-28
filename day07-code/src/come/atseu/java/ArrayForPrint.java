@@ -14,7 +14,7 @@ public class ArrayForPrint {
         printArray(Array);
         System.out.println("刚刚调用了数组的方法打印");
         printArray(Array2);
-        System.out.println("刚刚重载了方法，并且调用了 字符串的打印");
+        System.out.println("刚刚重载了方法，并且调用了字符串的打印");
     }
     //打印一个int型的数组
     public static void printArray(int[] array){
