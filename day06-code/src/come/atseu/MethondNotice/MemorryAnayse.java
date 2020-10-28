@@ -11,21 +11,21 @@ java的内存需要被划分为5部分 方法的运行一定要在栈中运行
 
 4.本地方法栈（native Method Stack）：与操作系统有关。
 5.寄存器（register）：与cpu有关。
-
+注意使用快捷键的使用技巧 shift+F6实现替换 替换掉所选的单词
  */
 public class MemorryAnayse {
     public static void main(String[] args) {
-        int[] Array1=new int[4];//动态初始化
-        System.out.println(Array1);//数组地址值
-        System.out.println(Array1[0]);//0
-        System.out.println(Array1[1]);//0
-        System.out.println(Array1[2]);//0
+        int[] ArrayA=new int[4];//动态初始化
+        System.out.println(ArrayA);//数组地址值
+        System.out.println(ArrayA[0]);//0
+        System.out.println(ArrayA[1]);//0
+        System.out.println(ArrayA[2]);//0
         //改变数组中的内容
-        Array1[0]=12;
-        Array1[1]=232;
-        System.out.println(Array1[0]);//0
-        System.out.println(Array1[1]);//0
-        System.out.println(Array1[2]);//0
-        System.out.println(Array1);//数组地址值
+        ArrayA[0]=12;
+        ArrayA[1]=232;
+        System.out.println(ArrayA[0]);//0
+        System.out.println(ArrayA[1]);//0
+        System.out.println(ArrayA[2]);//0
+        System.out.println(ArrayA);//数组地址值
     }
 }
