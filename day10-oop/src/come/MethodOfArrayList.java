@@ -8,6 +8,9 @@ import java.util.ArrayList;
 2.public E get（int index）；从集合往外读取，返回值就是对应的元素。
 3.public E remove（int index）；从集合中删除元素
 4.public int size（）；获取集合的长度 返回的是集合的元素个数
+5.list.fori 也是类似于数组的array.fori 能够很快的写好对应的遍历语句
+ 注意：在数组中[] 是以一个括号来结尾的 而在list和数组不一样 它有专门的方法 就是get方法。
+      对其实现遍历的语法是 list.get(i);
  */
 public class MethodOfArrayList {
     public static void main(String[] args) {
@@ -22,5 +25,9 @@ public class MethodOfArrayList {
         System.out.println("添加是否成功呢？"+success);
         System.out.println(list.get(2)+"000000"+list.size());
         System.out.println("被删除的人是"+list.remove(1));
+
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
     }
 }
