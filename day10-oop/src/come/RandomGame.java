@@ -15,19 +15,13 @@ public class RandomGame {
         int Guess=new Scanner(System.in).nextInt();//用Scnaner类中的nextint方法从键盘输入我们猜的
 
         while(Guess!=TheRandomNum){
-            if (Guess>TheRandomNum){
-                System.out.println("您猜大了，需要小一点，请您输入第"+(Time+1)+"尝试的数据");
-                Guess=new Scanner(System.in).nextInt();
-                Time+=1;
-            }else if (Guess<TheRandomNum){
-                System.out.println("您猜小了，需要大一点，请您输入第"+(Time+1)+"尝试的数据");
-                Guess=new Scanner(System.in).nextInt();
-                Time+=1;
-            }else if (Time>TotalTime){
+            if (Guess>TheRandomNum) System.out.println("您猜大了，需要小一点，请您输入第"+(Time+1)+"尝试的数据");
+            if (Guess<TheRandomNum) System.out.println("您猜小了，需要大一点，请您输入第"+(Time+1)+"尝试的数据");
+            System.out.println("请加油哦，您还有" + (TotalTime - Time) + "次机会哦");
+            Guess=new Scanner(System.in).nextInt();
+            Time+=1;
+            if (Time>=TotalTime){
                 break;
-            }
-            if (Guess!=TheRandomNum) {
-                System.out.println("请加油哦，您还有" + (TotalTime - Time) + "次机会哦");
             }
         }
         if (Guess==TheRandomNum){
