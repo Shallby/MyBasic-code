@@ -13,6 +13,7 @@ public class Anonymous {
         int num1=new Scanner(System.in).nextInt();
         System.out.println("采用anonymous输入的是"+num1);
       //更有甚者 直接用匿名对象anonymous来传入参数
-        System.out.println("各位 我是直接用的匿名对象 甚至连手都没有倒一下"+new Scanner(System.in).next());
+        System.out.println("各位 我是直接用的匿名对象作为方法的输入参数 甚至连手都没有倒一下"+new Scanner(System.in).next());
+
     }
 }
