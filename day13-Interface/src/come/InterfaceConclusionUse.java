@@ -8,6 +8,5 @@ public class InterfaceConclusionUse {
         欧阳锋.method2();
         欧阳锋.methodAbs();
         欧阳锋.showname();//父类有了对应的get set方法 子类会自动的继承  如果子类又新添加了对应的私有成员变量 那么也子类也需要对应的get set方法
-
     }
 }
