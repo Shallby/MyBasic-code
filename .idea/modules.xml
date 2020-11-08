@@ -10,6 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/day10-oop/day10-oop.iml" filepath="$PROJECT_DIR$/day10-oop/day10-oop.iml" />
       <module fileurl="file://$PROJECT_DIR$/day11-oop/day11-oop.iml" filepath="$PROJECT_DIR$/day11-oop/day11-oop.iml" />
       <module fileurl="file://$PROJECT_DIR$/day12-Inherited/day12-Inherited.iml" filepath="$PROJECT_DIR$/day12-Inherited/day12-Inherited.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13-Interface/day13-Interface.iml" filepath="$PROJECT_DIR$/day13-Interface/day13-Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day14-Final/day14-Final.iml" filepath="$PROJECT_DIR$/day14-Final/day14-Final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15-ObjectClass/day15-ObjectClass.iml" filepath="$PROJECT_DIR$/day15-ObjectClass/day15-ObjectClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16-Collection/day16-Collection.iml" filepath="$PROJECT_DIR$/day16-Collection/day16-Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17-E/day17-E.iml" filepath="$PROJECT_DIR$/day17-E/day17-E.iml" />
     </modules>
   </component>
 </project>
