@@ -15,5 +15,6 @@ public class MyGeneric {
         stringMyG.MyFuncGeneric(1321.0);
         stringMyG.MyFuncGeneric(true);
         MyG.StaticMethodGeneric("这是调用的含有泛型的静态方法");
+        MyG.StaticMethodGeneric(9);
     }
 }
